@@ -30,7 +30,7 @@ def multiply_many (**kwargs):
 # and concatenates them into a single string
 
 def concatenate_args (*names):
-    str = ''
+    str = " "
     for name in names:
         str  += name
     return str
@@ -38,7 +38,7 @@ def concatenate_args (*names):
 # A function named concatenate_kwargs that takes any number of string arguments 
 # in keyword arguments  format and concatenates them into a single string
 def concatenate_aargs (**kwargs):
-    str = ''
+    str = " "
     for kwarg in kwargs.values():
         str  += kwarg
     return str
