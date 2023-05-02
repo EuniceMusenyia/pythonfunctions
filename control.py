@@ -71,10 +71,10 @@ def continue_statement():
             continue
         print(x)
 
-def prime ():
-    x = range (20)
-    for i in x:
-        if i % 0 == 0 and i % i == 0:
-            print(f"{i}is prime")
-        else:
-            print(f"{i}is not prime")
+# def prime ():
+#     x = range (20)
+#     for i in x:
+#         if i % 0 == 0 and i % i == 0:
+#             print(f"{i}is prime")
+#         else:
+#             print(f"{i}is not prime")
